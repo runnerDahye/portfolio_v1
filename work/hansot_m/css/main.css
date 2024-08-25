@@ -1,0 +1,83 @@
+@charset "utf-8";
+html,body{ height: 100%;}
+
+/*header*/
+.header{width:100%; height:103px; position:relative;}
+.header span{display:block; position:absolute; background:#ffce22; right:0;  z-index:999;}
+.header span img{display:block;}
+.header h1{ position:absolute; text-align:left; top:20px; left:15px;}
+
+/*visual*/
+#visual{width:100%;}
+#visual img{width:100%;}
+
+/*content*/
+/*content_section1*/
+.content_section1{margin:50px 0;}
+.content_section1 h2{text-align:center; font-size:34px; color:#222; line-height:130%; font-family: 'Nanum Myeongjo';}
+.content_section1 h2 span{display:block; height:1px; width:30px; background:#222; margin:30px auto;}
+
+.content_section1 ul li{vertical-align:top; min-height:360px;}
+.content_section1 ul{text-align:center; font-size:0;}
+.content_section1 ul li{position:relative; display:inline-block; font-size:13px; width:45%; border:1px solid #ddd; background:#f3f3f3; margin:1%;}
+.content_section1 ul li > span{position:absolute; left:0; top:0;}
+.content_section1 ul li > span img{width:50px;}
+.content_section1 ul li a{display:block; width:auto; height:100%; padding:20px}
+.content_section1 ul li a p:first-child{font-size:16px; color:#222; font-weight:600; line-height:130%;}
+.content_section1 ul li a p:first-child span{font-size:12px; color:#666;}
+.content_section1 ul li a p + p + p + p{margin-top:10px; font-size:14px; color:#222; font-weight:600;}
+.content_section1 ul li a p + p + p{width:80%; margin:0 auto; line-height:130%;}
+.content_section1 ul li a p + p + p + p span{display:inline-block; background:#ffcc00; padding:3px 10px; font-size:11px; color:#222; margin-right:8px;}
+
+/*content_section2*/
+.content_section2{position:relative;}
+.content_section2 img{width:100%; display:block;}
+.content_section2 h2{position:absolute; font-size:45px;  font-family: 'NanumSquare'; font-weight:normal; color:#fff;  top:100px; left:50px; line-height:130%;}
+.content_section2 h2 span{display:block; width:30px; height:1px; background:#fff; margin-bottom:20px;}
+
+/*content_section3*/
+.content_section3 ul{overflow:hidden;}
+.content_section3 ul li{float:left; width:50%;}
+.content_section3 ul li img{width:100%; display:block;}
+
+/*content_section4*/
+.content_section4{background:url(../image/main/img4.jpg) no-repeat top center; background-size:cover; min-height:342px; text-align:center; padding:0 15px;}
+.content_section4 h2{font-size:35px; color:#fff; line-height:130%; font-weight:normal; padding-top:70px; margin-bottom:15px;}
+.content_section4 p{font-size:18px; color:#fff; line-height:130%; margin-bottom:25px;}
+.content_section4 a{display:inline-block; border:1px solid #fff; color:#fff; padding:15px 30px;}
+
+/*content_section5*/
+.content_section5{overflow:hidden}
+.content_section5 .box{float:left; width:33.3%; position:relative;}
+.content_section5 .box img{width:100%; display:block;}
+
+.content_section5 .box{background:#55d2ed;}
+.content_section5 .box + .box{background:#85df7e;}
+.content_section5 .box div{position:absolute; text-align:center; width:100%;}
+.content_section5 .box div a{display:block; width:auto; height:100%; padding:30px 20px; color:#fff;}
+.content_section5 .box div h2{font-size:30px; font-weight:normal; margin-bottom:20px; padding-top:50px;}
+.content_section5 .box div p{font-size:16px; line-height:130%;}
+
+/*content_section6*/
+.content_section6{text-align:center; padding:50px 0; background:#f3f3f3;}
+.content_section6 h2{font-size:30px; font-weight:normal; color:#222;}
+.content_section6 h2 span{display:block; width:30px; height:1px; background:#222; margin:20px auto;}
+.content_section6 .map{width:90%; margin:0 auto;}
+
+/*footer*/
+.footer{background:#262626; padding-bottom:30px;}
+.footer .footer_section{text-align:center; background:#ffcc00}
+.footer .footer_section li{display:inline-block; padding:20px 5px; font-size:12px;}
+.footer div{background:#3d3d3d; color:#ccc; font-size:12px; text-align:center;  line-height:130%; padding:30px 10px;}
+
+/*btn*/
+.btnWrap{text-align:center; margin-top:30px;}
+.btn_style1{position:relative; display:inline-block; background:#484848; color:#fff; font-size:14px; width:200px; height:40px; line-height:40px; text-indent:30px;}
+.btn_style1 span{position:absolute; left:0; top:0; width:40px; height:40px; line-height:45px; display:block; background:#ffcc00; color:#484848;  font-size:30px; text-indent:0px;}
+
+
+
+
+
+
+

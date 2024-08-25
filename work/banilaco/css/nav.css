@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+header{width:100%;}
+
+/*header*/
+.top_section {height:36px; background:#fca2ca;}
+.top_section .inner ul{float:right;}
+.top_section .inner ul li{display:inline-block; padding:10px;}
+.top_section .inner ul li a{color:#fff; font-size:14px;}
+
+.top_section .inner form{position:absolute; left:0;}
+.top_section .inner form p{display:block; width:20px; height:20px; margin-top:10px; float:left;}
+.top_section .inner form select{float:left; width:120px;}
+
+.inner_header{height:91px; border-bottom:1px solid #ddd;}
+.inner_header .inner h1{text-align:center; margin:22px 0;}
+.inner_header .inner form{position:absolute; right:0; top:0px;}
+.inner_header .inner form input{width:177px;}
+.inner_header .inner form button{background:url(../image/sch.png) no-repeat; width:20px; height:20px; border:0; margin-left:7px; vertical-align:middle;}
+
+.inner_header .inner p{display:block; width:30px; height:30px; position:absolute; right:37px; bottom:10px;}
+.inner_header .inner p + p{right:0; bottom:5px;}
+
+.inner_header .inner ul.main_menu{text-align:center;}
+.inner_header .inner ul.main_menu li{display:inline-block; padding:7px 40px;}
+.inner_header .inner ul.main_menu li a{font-size:16px; color:#4c4c4c;}
+
+#menu_dept{position:absolute;z-index:999;width:100%; top:149px; background:#fff; border:1px solid #ddd; font-size:14px;}
+#menu_dept .menu_dept_ul{display:block; width:840px; height:250px; margin:0 auto;}
+#menu_dept .menu_dept_ul li{float:left;width:130px;padding:10px; margin-left:15px;}
+#menu_dept .menu_open{text-align:left; width:200px;height:250px;float:left; margin-top:15px;}
+#menu_dept .menu_open li:first-child{font-size:18px; font-weight:bold;}
+#menu_dept .menu_open ul li{padding:2px; margin:0;}
+#menu_dept .close_img{position:absolute;right:10px;top:220px;}
+#menu_dept .menu_dept_ul li .sub_menu li > a{display:block;}
+#menu_dept p.ad{width:220px; height:220px; display:block; position:absolute; right:100px; top:30px;}
+#menu_dept p.ad img{width:100%;}
+#menu_dept p.close_img a{position:absolute; display:block; width:27px; right:0; bottom:-50px;}
+
+
+.main_menu .current a,
+.main_menu li:hover > a,
+#menu_dept .menu_dept_ul .current a,
+#menu_dept .menu_dept_ul li:hover > a,
+#menu_dept .menu_dept_ul li .sub_menu .current a,
+#menu_dept .menu_dept_ul li .sub_menu li:hover > a{color:#f162a2;}

@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+h2,
+h3,
+p,
+h4{font-family:"Malgun Gothic";}
+
+/*sub_visual*/
+.sub_visual{overflow:hidden; width:100%; position:relative;}
+.sub_visual img{width:100%;}
+.sub_visual > span{display:none;}
+.sub_visual .vis_txt{display:none; width:100%;}
+.sub_visual .vis_txt p{letter-spacing:-2px; text-align:center; color:#fff;  font-family: 'NanumSquare';}
+.sub_visual .vis_txt p:first-child{font-size:48px; }
+.sub_visual .vis_txt p:last-child{font-size:24px;}
+.sub_visual .vis_txt span{display:block; width:150px; height:1px; background:#fff; margin:10px auto;}
+
+/*location*/
+.location{overflow:hidden; width:100%; border-bottom:1px solid #ddd;}
+.location ul{float:right;}
+.location ul li{display:inline-block; vertical-align:middle; padding:12px 1px; font-family:"Malgun Gothic";}
+.location ul li a{font-size:13px; color:#555454;}
+
+/*content_wrap*/
+
+/*side menu*/
+.side_menu{width:193px; float:left;}
+.side_menu .title{width:100%; height:143px; background:url(../image/sub_title.jpg) no-repeat; background-size:cover;}
+.side_menu .title h2{color:#fff; text-align:center; font-size:24px; font-weight:normal; padding-top:59px;}
+.side_menu ul{display:block; width:191px; border-left:1px solid #ddd; border-right:1px solid #ddd; font-family:"Malgun Gothic";}
+.side_menu ul li{color:#5b5b5b; font-size:14px; border-bottom:1px solid #ddd; padding:17px 0 17px 8px; background:url(../image/bullet.png) no-repeat 85% 50%; cursor:pointer; letter-spacing:-2px;}
+.side_menu ul li:hover,
+.side_menu ul li.active{color:#ffa200; background:url(../image/bullet_active.png) no-repeat 85% 50%;}
+
+/*sub content*/
+.sub_content{width:869px; float:left; margin-left:35px;}
+
+/*********************서브페이지공통*****************************/
+
+/*************about 소개글페이지**************/
+/*sub content section1*/
+.sub_content .sub_content_section1{overflow:hidden; width:100%;}
+.sub_content .sub_content_section1 h2{font-size:30px; font-weight:normal; color:#505652; margin-top:50px;}
+.sub_content .sub_content_section1 span{width:71px; height:3px; background:#243228; display:block; margin:20px 0 50px 0;}
+.sub_content .sub_content_section1 p{width:100%;}
+.sub_content .sub_content_section1 p img{width:100%;}
+
+/*sub content section2*/
+.sub_content .sub_content_section2{overflow:hidden; width:100%;}
+.sub_content .sub_content_section2 h2{font-size:30px; font-weight:normal; color:#505652; margin-top:50px;}
+.sub_content .sub_content_section2 h3{font-size:24px; font-weight:normal; color:#08406c; margin-top:40px;}
+.sub_content .sub_content_section2 span{display:block; width:20%; height:2px; background:#528a64; float:left; margin:17px 0; padding:0;}
+.sub_content .sub_content_section2 span + span{width:80%; background:#dbdbdb;}
+.sub_content .sub_content_section2 p{font-size:14px; color:#353535; line-height:130%; margin-top:25px; letter-spacing:-1px;}
+.sub_content .sub_content_section2 div{width:100%;}
+.sub_content .sub_content_section2 div p{display:block; float:left; margin-right:35px;}
+.sub_content .sub_content_section2 div p + p + p{margin-right:0;}
+.sub_content .sub_content_section2 div p img{width:100%;}
+
+/*sub content section3*/
+.sub_content .sub_content_section3{overflow:hidden; width:100%;}
+.sub_content .sub_content_section3 h3{font-size:24px; font-weight:normal; color:#08406c; margin-top:50px;}
+.sub_content .sub_content_section3 span{display:block; width:20%; height:2px; background:#d03f79; float:left; margin:17px 0; padding:0;}
+.sub_content .sub_content_section3 span + span{width:80%; background:#dbdbdb;}
+.sub_content .sub_content_section3 p{width:100%; font-size:14px; color:#353535; line-height:130%; letter-spacing:-1px;}
+.sub_content .sub_content_section3 p + p{margin-top:25px;}
+.sub_content .sub_content_section3 p img{width:100%;}
+
+/*sub content section4*/
+.sub_content .sub_content_section4{overflow:hidden; width:100%;}
+.sub_content .sub_content_section4 h3{font-size:24px; font-weight:normal; color:#08406c; margin-top:50px;}
+.sub_content .sub_content_section4 span{display:block; width:20%; height:2px; background:#0cc2fd; float:left; margin:17px 0 25px 0; padding:0;}
+.sub_content .sub_content_section4 span + span{width:80%; background:#dbdbdb;}
+.sub_content .sub_content_section4 p{font-size:14px; color:#353535; line-height:130%; margin-top:25px; letter-spacing:-1px;}
+.sub_content .sub_content_section4 p{width:100%;}
+.sub_content .sub_content_section4 p img{width:100%;}
+
+/*sub content section5*/
+.sub_content .sub_content_section5{overflow:hidden; width:100%;}
+.sub_content .sub_content_section5 h3{font-size:24px; font-weight:normal; color:#08406c; margin-top:50px;}
+.sub_content .sub_content_section5 span{display:block; width:20%; height:2px; background:#f4db09; float:left; margin:17px 0; padding:0;}
+.sub_content .sub_content_section5 span + span{width:80%; background:#dbdbdb;}
+.sub_content .sub_content_section5 p{width:100%;}
+.sub_content .sub_content_section5 p img{width:100%;}
+.sub_content .sub_content_section5 p{font-size:14px; color:#353535;  line-height:130%; margin-top:25px; letter-spacing:-1px;}
+.sub_content .sub_content_section5 p + p + p + p{margin-bottom:70px;}
+
+
+/***********olympia 1코스구간 페이지******************/
+/*sub content section1*/
+.sub_content .sub_content_section1 h3{font-size:24px; font-weight:normal; color:#08406c; margin-bottom:20px; line-height:130%;}
+.sub_content .sub_content_section1 ul{width:100%; margin-top:10px;}
+.sub_content .sub_content_section1 ul li{display:inline-block; vertical-align:middle; font-size:18px; color:#404040; font-family:"Malgun Gothic";}
+.sub_content .sub_content_section1 ul li:nth-child(2){width:25px; height:25px; border-radius:100px; background:#0056b3; text-align:center; color:#fff;}
+.sub_content .sub_content_section1 ul li:nth-child(3){width:25px; height:25px; border-radius:100px; background:#2c884e; text-align:center; color:#fff;}
+.sub_content .sub_content_section1 ul li:nth-child(4){width:25px; height:25px; border-radius:100px; background:#00addc; text-align:center; color:#fff;}
+.sub_content .sub_content_section1 ul li:nth-child(5){width:25px; height:25px; border-radius:100px; background:#0085c0; text-align:center; color:#fff;}
+.sub_content .sub_content_section1 ul li:nth-child(6){width:25px; height:25px; border-radius:100px; background:#612976; text-align:center; color:#fff;}
+.sub_content .sub_content_section1 ul li:nth-child(7){width:25px; height:25px; border-radius:100px; background:#e52e62; text-align:center; color:#fff;}
+.sub_content .sub_content_section1 ul li:nth-child(8){width:25px; height:25px; border-radius:100px; background:#be342c; text-align:center; color:#fff;}
+.sub_content .sub_content_section1 ul li:nth-child(9){width:25px; height:25px; border-radius:100px; background:#ec6e2d; text-align:center; color:#fff;}
+.sub_content .sub_content_section1 ul li:nth-child(10){width:25px; height:25px; border-radius:100px; background:#009b94; text-align:center; color:#fff;}
+.sub_content .sub_content_section1 ul li a{display:block; color:#fff; margin-top:4px; font-size:14px;}
+
+/*sub content section2*/
+.sub_content .sub_content_section2 .tab_menu{position:relative; width:100%; margin-top:60px;}
+.sub_content .sub_content_section2 .tab_menu ul.tabs{font-size:0; width:100%; border-bottom:1px solid #ddd; font-family:"Malgun Gothic";}
+.sub_content .sub_content_section2 .tab_menu ul.tabs li{display:inline-block; font-size:14px; padding:15px 40px; background:#ddd; color:#4c4c4c; cursor:pointer;}
+.sub_content .sub_content_section2 .tab_menu ul.tabs li.active,
+.sub_content .sub_content_section2 .tab_menu ul.tabs li:hover{background:#d13976; color:#fff;}
+.sub_content .sub_content_section2 .tab_menu > ul + ul{position:absolute; right:0; top:0;}
+.sub_content .sub_content_section2 .tab_menu > ul + ul li{display:inline-block;}
+.sub_content .sub_content_section2 .tab_menu .tab_container{width:100%; margin-top:30px;}
+.sub_content .sub_content_section2 .tab_menu .tab_container p{width:100%; margin:0; padding:0;}
+.sub_content .sub_content_section2 .tab_menu .tab_container p img{width:100%;}
+
+/*sub content section3*/
+.sub_content .sub_content_section3 p{margin-top:25px;}
+
+/*sub content section4*/
+.sub_content .sub_content_section4 h4{font-weight:normal; color:#08406c; font-size:18px; margin-top:25px;}
+.sub_content .sub_content_section4 ul{margin:25px 0 50px 0; font-family:"Malgun Gothic";}
+.sub_content .sub_content_section4 ul li{font-size:14px; color:#353535;  line-height:130%; letter-spacing:-1px;}
+
+
+/******************confirm 구간인증페이지*****************************/
+/*sub content section1*/
+form{width:100%;}
+select{width:132px; margin:0; padding:0;}
+option{font-family:"Malgun Gothic"; font-size:14px;}
+form div{float:right;}
+form div select{margin-top:-3px;}
+form div .btn{height:32px; width:60px; background:#26a4ec url(../image/confirm/sch.png) no-repeat 20% 50%; margin:0px; padding:0; border:0; text-indent:17px;}
+form div input{width:232px; margin:0; padding:0; margin-top:-3px;}
+
+/*sub content section2*/
+.sub_content .sub_content_section2 .confirm_gallary{overflow:hidden; width:100%; background:#ded9d9; padding:10px 0 0 0; margin-top:31px;}
+.sub_content .sub_content_section2 .confirm_gallary .inner_gal{overflow:hidden; width:95%; margin:0 auto; margin:47px auto;}
+.sub_content .sub_content_section2 .confirm_gallary .inner_gal div{position:relative; width:180px; height:235px; margin:0 13px; float:left; cursor:pointer;}
+.sub_content .sub_content_section2 .confirm_gallary .inner_gal div p{width:100%; margin:0;}
+.sub_content .sub_content_section2 .confirm_gallary .inner_gal div p img{width:100%;}
+.sub_content .sub_content_section2 .confirm_gallary .inner_gal div > div{position:absolute; width:100%; height:102px; background:#fff; margin:0; bottom:0;}
+.sub_content .sub_content_section2 .confirm_gallary .inner_gal div > div p{padding:10px 0 0 5px; font-size:14px; color:#393939;}
+.sub_content .sub_content_section2 .confirm_gallary .inner_gal div > div p:last-child{width:65px; height:15px; padding:0; position:absolute; right:5px; bottom:10px; display:block;}
+.sub_content .sub_content_section2 .confirm_gallary .inner_gal div > div span{background:none; width:20px; height:20px; margin:0; position:absolute; top:10px; right:5px;}
+
+.sub_content .sub_content_section2 .gal_pager{width:100%; height:50px; background:#ded9d9; margin-bottom:30px;}
+.sub_content .sub_content_section2 .gal_pager ul{display:block; width:70px; margin:0 auto;}
+.sub_content .sub_content_section2 .gal_pager ul li{display:inline-block; width:20px; height:20px; background:#fff; margin:4px 4px; text-align:center; border:1px solid #ddd; cursor:pointer;}
+.sub_content .sub_content_section2 .gal_pager ul li{font-size:14px; color:#434343;}
+.sub_content .sub_content_section2 .gal_pager ul li.select{border:1px solid #fda100;}
+.sub_content .sub_content_section2 .gal_pager ul li.select{color:#fda100;}
+
+.sub_content .sub_content_section3 .confirm_notice{width:100%; height:116px; background:url(../image/confirm/img11.jpg)no-repeat; background-size:cover; cursor:pointer; margin-bottom:50px;} 
+.sub_content .sub_content_section3 .confirm_notice p{color:#fff; font-size:18px; letter-spacing:-1px; margin-top:0; padding:70px 0 0 10px; line-height:130%;}
+
+/***************weekend 게시판페이지****************************/
+/*sub content section1*/
+.sub_content .sub_content_section1{position:relative;}
+
+/*sub content section2*/
+.sub_content .sub_content_section2 table.notice caption p.icon{position:absolute; display:block; width:36px; height:33px; top:200px; right:30px;}
+.sub_content .sub_content_section2 table.notice{width:100%; margin-top:20px;}
+.sub_content .sub_content_section2 table.notice tr:first-child{border-top:1px solid #fda100; background:#f3f3f3;}
+.sub_content .sub_content_section2 table.notice tr{border-bottom:1px solid #ddd;}
+.sub_content .sub_content_section2 table.notice tr th{font-size:14px; color:#292929; font-weight:normal; padding:13px; font-family:"Malgun Gothic";}
+.sub_content .sub_content_section2 table.notice tr td{font-size:13px; text-align:center; padding:13px; color:#605f5e;  font-family:"Malgun Gothic"; line-height:130%;}
+.sub_content .sub_content_section2 table.notice tr td:nth-child(2){text-align:left;}
+.sub_content .sub_content_section2 table.notice tr td:nth-child(2) a:hover{color:#fda100;}
+.sub_content .sub_content_section2 table.notice caption{margin-bottom:15px;}
+.sub_content .sub_content_section2 table.notice caption p{float:left; color:#3d3d3d; font-size:18px; font-family:"Malgun Gothic";}
+.sub_content .sub_content_section2 table.notice caption span{background:none; width:27px; font-size:24px; color:#8c2a2a; margin-top:23px; padding:0;}
+
+.sub_content .sub_content_section2 ul.list_pager{text-align:center; margin:20px 0;}
+.sub_content .sub_content_section2 ul.list_pager li{display:inline-block; padding:8px 10px; border:1px solid #ddd; font-size:14px; color:#474747; cursor:pointer;}
+.sub_content .sub_content_section2 ul.list_pager li.select{border:1px solid #fda100; color:#fda100;}
+
+.sub_content .sub_content_section2 .btn2{width:72px; height:35px; background:#d13976; margin-bottom:35px; padding:0; cursor:pointer;}
+.sub_content .sub_content_section2 .btn2 p{color:#fff; font-size:14px; margin:0; padding:9px 15px; width:50px;}
+
+/********************guest 게스트하우스페이지**************************/
+
+/*sub content section1*/
+.sub_content .sub_content_section1 span.page6_tit{width:71px; height:3px; background:#243228; display:block; margin:20px 0 10px 0;}
+.sub_content .sub_content_section2 .btn3{width:185px; height:44px; background:#d03875 url(../image/guest/icon1.png) no-repeat 70% 50%; margin:20px auto; cursor:pointer;}
+.sub_content .sub_content_section2 .btn3 p{color:#fff; padding:13px; margin:0; text-indent:40px; width:100px;}
+.sub_content .sub_content_section2 h2.tit{font-size:30px; color:#3d3d3d; letter-spacing:-1px; text-align:center; margin-bottom:25px;}
+
+/*sub content section2*/
+.sub_content .sub_content_section2 .gallary{width:100%;}
+.sub_content .sub_content_section2 .gallary span{background:none; width:100%; display:none;}
+.sub_content .sub_content_section2 .gallary span img{width:100%;}
+.sub_content .sub_content_section2 .bx-wrapper .bx-pager {bottom: -120px; width:100%;}
+.sub_content .sub_content_section2 .bx-wrapper .bx-pager .bx-pager-item{width:16.6%;}
+.sub_content .sub_content_section2 .bx-wrapper .bx-pager .bx-pager-item a {width:100%; display: block; margin:0; padding:0; float:left; opacity:0.8}
+.sub_content .sub_content_section2 .bx-wrapper .bx-pager .bx-pager-item a:hover,
+.sub_content .sub_content_section2 .bx-wrapper .bx-pager .bx-pager-item a.active {opacity:1;}
+.sub_content .sub_content_section2 .bx-wrapper {margin-bottom: 120px;}
+
+/*sub content section3*/
+.sub_content .sub_content_section3 table.info{border-bottom:1px solid #ddd;}
+.sub_content .sub_content_section3 table.info{float:left; width:50%; margin-top:20px; margin-bottom:35px;}
+.sub_content .sub_content_section3 table.info th{background:#ddd; padding:10px 0; font-weight:normal; font-size:14px; color:#252424; font-family:"Malgun Gothic"; border-top:1px solid #767676;}
+.sub_content .sub_content_section3 table.info td{font-size:14px; color:#4c4c4c; font-family:"Malgun Gothic"; padding:12px 0 0 10px; letter-spacing:-1px;}
+.sub_content .sub_content_section3 table.info tr:last-child td{padding-bottom:12px;}
+.sub_content .sub_content_section3 table.info tr td.last{padding-bottom:38px;}
+
+/*************************love 후원페이지***************************/
+
+/*sub content section2*/
+.sub_content .sub_content_section2 .tab_menu .tab_container .tab_content form table.input_info{width:100%; font-family:"Malgun Gothic"; margin-bottom:30px;}
+.sub_content .sub_content_section2 .tab_menu .tab_container .tab_content form table.input_info caption{float:left; font-size:18px; color:#4a4949; letter-spacing:-1px; margin-bottom:15px;}
+.sub_content .sub_content_section2 .tab_menu .tab_container .tab_content form table.input_info tr{border-top:1px solid #ddd;}
+.sub_content .sub_content_section2 .tab_menu .tab_container .tab_content form table.input_info tr:first-child{border-top:1px solid #fda100;}
+.sub_content .sub_content_section2 .tab_menu .tab_container .tab_content form table.input_info tr:last-child{border-bottom:1px solid #ddd;}
+.sub_content .sub_content_section2 .tab_menu .tab_container .tab_content form table.input_info tr th{float:left; text-align:left; width:15%; padding:13px 10px; font-size:14px; color:#363636; letter-spacing:-1px; font-weight:normal; line-height:130%;}
+.sub_content .sub_content_section2 .tab_menu .tab_container .tab_content form table.input_info tr td{float:left; width:80%; padding:13px 10px; font-size:14px; color:#757272; letter-spacing:-1px;  line-height:130%;}
+
+.sub_content .sub_content_section2 .tab_menu .tab_container .tab_content form table.input_info + table.input_info{margin-bottom:20px;}
+.sub_content .sub_content_section2 .tab_menu .tab_container .tab_content form table.input_info + table.input_info tr th{padding:18px 10px 10px 10px;}
+.sub_content .sub_content_section2 .tab_menu .tab_container .tab_content form table.input_info tr td input{height:20px; background:#f3f3f3;}
+.long{width:468px;}
+
+.sub_content .sub_content_section2 .tab_menu .tab_container .tab_content form p{text-align:center; font-size:14px; color:#757272; letter-spacing:-1px; margin-bottom:20px; margin-top:0;}
+.sub_content .sub_content_section2 .tab_menu .tab_container .tab_content form button{margin:0 auto; display:block; background:#26a4ec; border:0; color:#fff; font-size:14px; padding:11px 34px; font-family:"Malgun Gothic"; cursor:pointer;}
+.sub_content .sub_content_section2 .tab_menu .tab_container .tab_content p.warning{font-size:14px; color:#4c1f22; margin-top:20px;}
+.sub_content .sub_content_section2 .tab_menu .tab_container .tab_content p.warning + p.warning{margin-bottom:50px; margin-top:0;}
+.sub_content .sub_content_section2 .tab_menu .tab_container .tab_content + .tab_content form{margin-bottom:30px;}
+
+/***************************QnA 게시판페이지*************************************/
+
+/*sub content section2*/
+ .sub_content .sub_content_section2 .over{cursor:pointer;  background:#e8e3e3;}
+ .sub_content .sub_content_section2 .selected{cursor:default; background:#e8e3e3;}
+ .sub_content .sub_content_section2 table.notice tr.post td p{text-align:left; color:#605f5e; font-size:14px; margin-bottom:30px;}
+ .sub_content .sub_content_section2 table.notice tr.post td p img{width:100%;}

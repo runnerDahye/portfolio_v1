@@ -1,0 +1,28 @@
+.nav{position:fixed; background:#fff; width:80%; height:100%; left:-80%; top:0; z-index:999; overflow:scroll; overflow-x:hidden;}
+.nav p.nav_icon{position:absolute; top:30px; right:15px;}
+.nav p img{width:40px;}
+.nav ul li{font-family: 'Malgun Gothic'; cursor:pointer; color:#3c3c3c; border-bottom:1px solid #ddd;}
+.nav ul li{font-size:14px; padding:15px 0 15px 5%;}
+.nav ul li.tit{font-weight:bold; display:block; width:100%; padding: 10px 0 10px 5%; background:#ee4977; margin:90px 0 0 0; color:#fff; font-size:16px;}
+
+ul.sub_side_menu{display:none; background:#e5e7e6; width:100%;}
+ul.sub_side_menu li{padding:10px 0 10px 6%; border:0;}
+ul.sub_side_menu li:first-child{margin-top:0;}
+ul.sub_side_menu li a{font-size:13px; font-weight:normal; color:#626262;}
+.nav ul{width:100%;}
+
+ul.tabs{width:100%; font-size:0; margin-top:30px;}
+ul.tabs li{display:inline-block; width:50%; color:#fff; background:#fb89b7; margin:0; font-size:14px; text-align:center; padding:15px 0;}
+ul.tabs li.select{background:#ee4977;}
+
+.tab_container .tab_content form{width:95%; margin:20px auto 0; position:relative;}
+.tab_container .tab_content form input{width:75%; margin-bottom:3px;}
+.tab_container .tab_content form button{width:23%; position:absolute; right:0; top:0; padding:28px 0; border:0; background:#54d9d6; color:#fff;}
+.tab_container .tab_content ul{margin:20px 0 0 3%;}
+.tab_container .tab_content ul li{border:0; display:inline-block; padding:0; font-size:13px;}
+.tab_container .tab_content p{text-align:center; padding-top:50px;}
+.tab_container .tab_content p + p{font-size:14px; font-family: 'Malgun Gothic'; color:#949494; padding-top:20px;}
+
+ul.member{margin-top:20px;}
+ul.member li{border:0;}
+ul.member li a span img{width:25px; margin-bottom:-5px;}

@@ -1,0 +1,16 @@
+.side_menu{width:100%; height:100%; background:#3d6de5; position:fixed; top:-100%; z-index:99; overflow:hidden; display:none;}
+.side_menu > img{position:absolute; bottom:0; width:100%;}
+.side_menu .side_menu_inner{width:95%; margin:77px auto 0; height:50%;}
+.side_menu .side_menu_inner div{width:50%; height:50%; float:left; min-height:140px;}
+.side_menu .side_menu_inner div p{text-align:center; padding:5% 0; font-size:14px; color:#fff; font-family:"Malgun Gothic";}
+.side_menu .side_menu_inner div p.shake:hover{ animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both; transform: translate3d(0, 0, 0); backface-visibility: hidden; perspective: 1000px; }
+@keyframes shake {10%, 90% {transform: translate3d(-1px, 0, 0);} 20%, 80% {transform: translate3d(2px, 0, 0);} 30%, 50%, 70% {transform: translate3d(-4px, 0, 0);}40%, 60% {transform: translate3d(4px, 0, 0);}}
+
+@media screen and (max-width:1024px){ 
+.side_menu{display:block; top:-100%;}
+}
+
+@media screen and (max-width:320px){
+.side_menu .side_menu_inner div p{padding:0;}
+.side_menu .side_menu_inner div p + p{text-align:center; padding:2% 0;}
+}
