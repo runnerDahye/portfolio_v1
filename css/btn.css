@@ -2,7 +2,7 @@
 .button-8{
   width:140px;
   height:50px;
-  border:2px solid #ffcc00;
+  border:2px solid #fff;
   float:left;
   text-align:center;
   cursor:pointer;
@@ -16,7 +16,7 @@
 .button-8 span{
   font-family:'Pretendard';;
   font-size:18px;
-  color:#333;
+  color:#2e63ff;
   text-decoration:none;
   line-height:50px;
   transition:all .5s ease;
@@ -28,14 +28,14 @@
 .eff-8{
   width:140px;
   height:50px;
-  border:70px solid #ffcc00;
+  border:70px solid #fff;
   position:absolute;
   transition:all .5s ease;
   z-index:1;
   box-sizing:border-box;
 }
 .button-8:hover .eff-8{
-  border:0px solid #ffcc00;
+  border:0px solid #fff;
 }
 .button-8:hover span{
   color:#fff;

@@ -139,7 +139,9 @@
   position: relative;
   padding: 80px 0;
   background-attachment: fixed;
-  background-size: cover;
+  /*background-size: cover;*/
+  background-size: 120%;
+  background-position: 50% 50%;
   transition: 0.4s ease;
 }
 
@@ -190,3 +192,18 @@
   color: #999;
   display: inline-block;
 }
+
+@keyframes backgroundShrink {
+  from {
+    background-size: 120%;
+  }
+  to {
+    background-size: 100%;
+  }
+}
+
+[class*="timeline-index"]{  animation: backgroundShrink 4s ease forwards; /* 2초 동안 애니메이션 */}
+
+
+
+
