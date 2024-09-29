@@ -16,7 +16,7 @@
 .button-8 span{
   font-family:'Pretendard';;
   font-size:18px;
-  color:#2e63ff;
+  color:#fff;
   text-decoration:none;
   line-height:50px;
   transition:all .5s ease;
@@ -28,16 +28,16 @@
 .eff-8{
   width:140px;
   height:50px;
-  border:70px solid #fff;
+  border:0px solid #fff;
   position:absolute;
   transition:all .5s ease;
   z-index:1;
   box-sizing:border-box;
 }
 .button-8:hover .eff-8{
-  border:0px solid #fff;
+  border:70px solid #fff;
 }
 .button-8:hover span{
-  color:#fff;
+  color:#222;
 }
 
