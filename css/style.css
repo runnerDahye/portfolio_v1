@@ -195,7 +195,7 @@ body::-webkit-scrollbar-thumb
 .timeline-header__subtitle {
   /*color: rgba(255, 255, 255, 0.5);*/
   color:#fff;
-  font-family: "Pathway Gothic One", sans-serif;
+  font-family: 'Pretendard';
   font-size: 16px;
   letter-spacing: 5px;
   margin: 10px 0 0 0;
@@ -215,14 +215,14 @@ body::-webkit-scrollbar-thumb
 
 @keyframes backgroundShrink {
   from {
-    background-size: 120%;
+    background-size: 115%;
   }
   to {
     background-size: 100%;
   }
 }
 
-[class*="timeline-index"]{  animation: backgroundShrink 4s ease forwards; /* 2초 동안 애니메이션 */}
+[class*="timeline-index"]{  animation: backgroundShrink 3s ease forwards; /* 2초 동안 애니메이션 */}
 
 
 
