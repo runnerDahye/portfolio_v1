@@ -41,3 +41,9 @@
   color:#222;
 }
 
+@media only screen and (max-width: 1024px) {
+  .button-8 {width: 120px; height: 40px;}
+  .eff-8 {width: 120px; height: 40px;}
+  .button-8 span {font-size: 16px; line-height: 40px;}
+}
+
