@@ -2,6 +2,7 @@
   $.fn.timeline = function() {
     var selectors = {
       id: $(this),
+      bg : $(this).find(".bg_area"),
       item: $(this).find(".timeline-item"),
       activeClass: "timeline-item--active",
       img: ".timeline__back"
@@ -9,13 +10,13 @@
 
     // 첫 번째 항목 활성화 및 배경 설정
     selectors.item.eq(0).addClass(selectors.activeClass);
-    selectors.id.css({
+    selectors.bg.css({
       "background-image": "url(" + selectors.item.first().find(selectors.img).attr("src") + ")",
     });
 
     // 첫 번째 항목의 data-index로 클래스 추가
     var firstIndex = selectors.item.first().data('index');
-    selectors.id.addClass('timeline-index-' + firstIndex);
+    selectors.bg.addClass('timeline-index-' + firstIndex);
 
     var itemLength = selectors.item.length;
 
@@ -33,27 +34,27 @@
           // 마지막 항목 활성화
           if (!selectors.item.last().hasClass(selectors.activeClass)) {
             selectors.item.removeClass(selectors.activeClass);
-            selectors.id.css({
+            selectors.bg.css({
               "background-image": "url(" + selectors.item.last().find(selectors.img).attr('src') + ")",
             });
             selectors.item.last().addClass(selectors.activeClass);
 
             // data-index 기반으로 클래스 추가
             var lastIndex = selectors.item.last().data('index');
-            triggerAnimation(selectors.id, lastIndex);
+            triggerAnimation(selectors.bg, lastIndex);
           }
 
         } else if (pos <= max - 40 && pos >= min) {
           if (!$(this).hasClass(selectors.activeClass)) {
             // 스크롤 위치에 따른 항목 활성화
-            selectors.id.css({
+            selectors.bg.css({
               "background-image": "url(" + $(this).find(selectors.img).attr('src') + ")",
             });
             selectors.item.removeClass(selectors.activeClass);
             $(this).addClass(selectors.activeClass);
 
             // data-index 기반으로 클래스 추가
-            triggerAnimation(selectors.id, dataIndex);
+            triggerAnimation(selectors.bg, dataIndex);
           }
         }
       });
