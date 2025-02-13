@@ -57,3 +57,7 @@
 .inner_content .cont .introduce p {margin: 0; color: #000; line-height: 1.6; word-break: keep-all; padding-top: 30px;}
 .inner_content .detail_pc {padding: 100px 0;}
 .inner_content .detail_pc img {margin: 0;}
+
+.inner_content .cont .awards {display: grid; grid-template-columns: repeat(2, 1fr); padding: 65px; background: #F5F5F5; margin-bottom: 100px; border-radius: 20px}
+.inner_content .cont .awards p {color: #222; font-weight: 800; font-size: 40px; letter-spacing: -1px; padding-top: 30px;}
+.inner_content .cont .awards img{margin: 0; max-width: 600px; width: 100%; border: 1px solid #eee;}
