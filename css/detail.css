@@ -24,12 +24,14 @@
 .content {height:100%; width:100%; overflow-y:auto;}
 .inner_content{position:relative; width:1600px; margin:0 auto;}
 
-@media only screen and (max-width: 1024px) {
-.inner_content{width:100%;}
+@media only screen and (max-width: 1600px) {
+.inner_content{width:95%; margin: 0 auto;}
 }
-.inner_content h2{font-size:45px; color:#262626; font-weight:700; font-family: 'Pretendard';; letter-spacing:-2px; margin:45px 0 0 0;}
+.inner_content h2{font-size:45px; color:#262626; font-weight:700; font-family: 'Pretendard';; letter-spacing:-2px; margin:45px 0 0 0; word-break: keep-all; line-height: 1.3;}
 .inner_content span{display:block; width:79px; height:1px; background:#262626; margin:25px 0; }
+.inner_content .m_br {display: none; width: 0; height: 0; background: none; margin: 0;}
 .inner_content p{font-family: 'Pretendard';; color:#898989; font-size:16px; margin:10px 0; padding:0;}
+.inner_content > p {word-break: keep-all;}
 .inner_content a{display:block; text-decoration:none; font-family: 'Pretendard'; color:#222; font-size:16px; margin:5px 0; display: inline-block}
 .inner_content a:hover{color:#436396;}
 .inner_content img{ margin:76px auto 0; width:100%;}
@@ -39,25 +41,52 @@
 .inner_content span.url_m{background:#fff; float:left; width:100px; height:auto; margin:10px 0 0 20px; font-family: 'Pretendard';; font-size:16px; color:#222;}
 
 @media only screen and (max-width: 480px) {
-.inner_content h2{font-size:36px;}
+.inner_content h2{font-size:28px;}
 .close{right:30px;}
 .close img{width:25px; height:20px;}
 }
 
 @media only screen and (max-width: 420px) {
-.inner_content h2{font-size:38px;}
 .inner_content p{font-size:14px;}
 }
 
 /*24.12.08 신규 내용 추가*/
-.inner_content .cont {margin:0 auto; max-width: 1200px; width: 95%;}
+.inner_content .cont {margin:0 auto; max-width: 1200px; width: 100%;}
 
 .inner_content .cont .introduce {display: grid; grid-template-columns: 300px auto; padding: 65px 0 100px; gap: 0 40px;}
 .inner_content .cont .introduce img {margin:0;}
 .inner_content .cont .introduce p {margin: 0; color: #000; line-height: 1.6; word-break: keep-all; padding-top: 30px;}
-.inner_content .detail_pc {padding: 100px 0;}
+.inner_content .detail_pc {padding: 100px 0; margin-bottom: 100px;}
 .inner_content .detail_pc img {margin: 0;}
 
-.inner_content .cont .awards {display: grid; grid-template-columns: repeat(2, 1fr); padding: 65px; background: #F5F5F5; margin-bottom: 100px; border-radius: 20px}
-.inner_content .cont .awards p {color: #222; font-weight: 800; font-size: 40px; letter-spacing: -1px; padding-top: 30px;}
+.inner_content .cont .awards {display: grid; grid-template-columns: repeat(2, 1fr); padding: 65px; background: #F5F5F5; margin-bottom: 100px; border-radius: 20px; gap: 0 30px;}
+.inner_content .cont .awards p {margin:0; color: #222; font-weight: 800; font-size: 40px; letter-spacing: -1px; padding-top: 30px;}
 .inner_content .cont .awards img{margin: 0; max-width: 600px; width: 100%; border: 1px solid #eee;}
+
+.inner_content .detail_m {margin-bottom: 100px;}
+.inner_content .detail_m img{margin: 0 auto; max-width: 100%; width: auto;}
+.inner_content .detail_m p {color: #222; font-weight: 800; font-size: 40px; letter-spacing: -1px; padding-bottom: 30px; margin: 0}
+
+@media only screen and (max-width: 980px) {
+	.inner_content .cont .awards p {font-size: 30px;}
+}
+
+@media only screen and (max-width: 767px) {
+	.inner_content .cont .introduce {grid-template-columns: 100%; padding: 35px 0 70px; gap: 0}
+	.inner_content .cont .introduce img {max-width: 180px; margin:0 auto;}
+	.inner_content .detail_pc {padding:70px 10px; margin-bottom: 70px;}
+	.inner_content .detail_m {margin-bottom:70px;}
+	.inner_content .cont .awards {padding: 35px; gap: 0 20px; margin-bottom: 70px;}
+	.inner_content .cont .awards p {font-size: 30px; padding-top: 10px;}
+}
+
+@media only screen and (max-width: 480px) {
+	.inner_content .m_br {display: block;}
+	.inner_content img {margin: 45px auto 0;}
+	.inner_content .cont .introduce {padding: 35px 0 50px;}
+	.inner_content .detail_pc {padding:50px 10px; margin-bottom: 50px;}
+	.inner_content .detail_m {margin-bottom: 50px;}
+	.inner_content .detail_m p {font-size: 24px; padding-bottom:20px}
+	.inner_content .cont .awards {grid-template-columns: 100%; padding: 25px; gap: 20px 0; margin-bottom: 50px;}
+	.inner_content .cont .awards p {font-size: 24px;}
+}

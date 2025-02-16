@@ -242,12 +242,15 @@ body::-webkit-scrollbar-thumb
   z-index: 2;
   background: #fff;
 }
+.demo-footer > p {font-family: 'Pretendard'; font-size: 16px}
 .demo-footer a {
-  text-decoration:none;
-  font-family: 'Malgun Gothic';
-  color: #999;
+  font-family: 'Pretendard';
+  color: #444;
   display: inline-block;
 }
+.demo-footer > ul {display: flex; justify-content: center; gap: 0 10px; align-items: center}
+.demo-footer > ul li {list-style-type: none;}
+.demo-footer > ul li img {width: 24px;}
 
 @keyframes backgroundShrink {
   from {
